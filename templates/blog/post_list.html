@@ -1,0 +1,16 @@
+{% extends "blog/base.html" %}
+
+{% block title %}
+    文章列表
+{% endblock %}
+
+{% block main %}
+    {% for p in object_list %}
+        <div>
+            <a href="{% url 'detail' p.id %}">
+                <div style="font-weight: bold;">{{ p.post_title }}</div>
+            </a>
+            <div style="font-style: italic;">{{ p.post_date }}</div>
+        </div>
+    {% endfor %}
+{% endblock %}

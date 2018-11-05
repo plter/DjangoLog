@@ -1,0 +1,10 @@
+{% extends 'blog/base.html' %}
+{% block title %}
+    {{ object.post_title }}
+{% endblock %}
+{% block main %}
+    <h1>{{ object.post_title }}</h1>
+    <div>发布日期：{{ object.post_date }}</div>
+    <hr>
+    <div>{{ object.post_content|safe }}</div>
+{% endblock %}
