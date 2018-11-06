@@ -1,6 +1,11 @@
 # DjangoLog
 A weblog app for learning django
 
+# 源码镜像 
+
+* 国内地址 [https://gitee.com/plter/DjangoLog](https://gitee.com/plter/DjangoLog)  
+* 国际地址 [https://github.com/plter/DjangoLog](https://github.com/plter/DjangoLog)  
+
 # 课程目标  
 
 一天学会使用Django写网站
