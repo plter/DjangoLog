@@ -1,5 +1,10 @@
 # DjangoLog
-A weblog app for learning django
+
+Django 是一个强大的 Python Web 框架，拥有完整的MVC/MTV结构，强大的模板技术，完美的ORM功能，让开发人员能够在几个小时之内写出一个功能完整的网站。
+
+# 在线课程 
+
+[https://yunp.top/m/course/v/1125](https://yunp.top/m/course/v/1125) 
 
 # 源码镜像 
 
